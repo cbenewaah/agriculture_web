@@ -10,7 +10,7 @@ function Main() {
                 <div className='text-customGreen2 font-medium'>
                     FROM OUR FARM, TO YOUR TABLE
                 </div>
-                <div className='flex flex-row justify-between'>
+                <div className='flex-flex-col lg:flex flex-row justify-between'>
                     <div className='flex flex-col'>
                         <div className='my-4'>
                             <p className='font-bold text-6xl text-customGreen2'>Discover the</p>
@@ -36,7 +36,7 @@ function Main() {
                     <a className='mx-3 border bg-customorange rounded-xl px-5 py-2 font-semibold text-customGreen2 ' href='#'>Contact Us</a>
                 </div>
             </div>
-            <div className='bg-customGreen1 flex flex-row'>
+            <div className='bg-customGreen1 flex flex-col lg:flex-row'>
                 <div className='mx-9 my-12 '>
                     <video width='800' controls className='border border-black rounded-2xl h-100p w-90p '>
                         <source src='/video.mp4' type='video/mp4' />
@@ -68,7 +68,7 @@ function Main() {
                     <p className='mx-64'>Revolution</p>
                 </div>
 
-                <div className='flex justify-center items-center space-x-10'>
+                <div className='flex flex-col md:flex-row justify-center md:items-center lg:space-x-10'>
                     <div className="left-end">
                         <div className='relative'>
                             <img src='/old farm.webp' alt='image of the old farm' className='rounded-lg w-96 h-60 m-20 border border-green-900' />
@@ -94,7 +94,7 @@ function Main() {
                             VS
                         </h3>
                     </div>
-                    <div className="left-end">
+                    <div className="right-end">
                         <div className='relative'>
                             <img src='/old farm.webp' alt='image of the old farm' className='rounded-lg w-96 h-60 m-20 border border-green-900' />
                             <div className="absolute top-7 right-7 bg-green-800 text-white px-4 py-4 rounded-lg m-2 text-xl font-semibold">
@@ -119,19 +119,19 @@ function Main() {
                 <div className='text-5xl font-bold text-customGreen2 flex justify-center my-10 '>
                     Our Numbers talk for themselves
                 </div>
-                <div className='flex flex-row justify-between px-8'>
+                <div className='flex flex-col md:flex-row justify-between md:px-8'>
                     <div className='relative'>
                         <img className='' src='' alt='' />
-                        <div className='  bg-customGreen1 px-28 border border-customGreen py-3 rounded-2xl'>
+                        <div className='mb-3   bg-customGreen1 lg:px-28 border border-customGreen lg:py-3 rounded-2xl'>
                             <p className='font-bold text-6xl text-customGreen2'>1,000+</p>
                             <p className='text-customGreen2'>Acres cultivated</p>
                         </div>
                     </div>
-                    <div className=' bg-customGreen1 px-28 border border-customGreen py-3 rounded-2xl'>
+                    <div className='mb-3  bg-customGreen1 lg:px-28 border border-customGreen lg:py-3 rounded-2xl'>
                         <p className='font-bold text-6xl text-customGreen2'>5,000+</p>
                         <p className='text-customGreen2'>Happy Customers</p>
                     </div>
-                    <div className=' bg-customGreen1 px-28 border border-customGreen py-3 rounded-2xl'>
+                    <div className='mb-3 bg-customGreen1 lg:px-28 border border-customGreen lg:py-3 rounded-2xl'>
                         <p className='font-bold text-6xl text-customGreen2'>50+</p>
                         <p className='text-customGreen2'>Organic Products</p>
                     </div>
@@ -148,7 +148,7 @@ function Main() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis</p>
                     <p>cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
                 </div>
-                <div className='grid grid-cols-3 gap-7 mx-10'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-7 lg:mx-10'>
                 <Card
                    image={<img className=' rounded-2xl w-80 h-96' src='/f1.webp' alt=''/>} 
                    title='Fresh Tomatoes'
@@ -189,7 +189,7 @@ function Main() {
             </div>
 
             <div>
-                <div className='flex flex-row justify-between'>
+                <div className='flex flex-col lg:flex-row justify-between'>
                     <div className='border border-customGreen2 py-5 px-24 rounded-2xl m-5'>
                         <div>
                         <p className='text-customGreen2 flex justify-center font-semibold'>BENEFITS</p>
@@ -236,7 +236,7 @@ function Main() {
                 <video height='500' controls>
                     <source src='/video2.mp4' type='video/mp4'/>
                 </video>
-                <div className='border bg-customGreen2 border-customGreen2 p-20 absolute top-20 left-10 rounded-2xl float-left '>
+                <div className='p-8 top-20 left-8 mx-5 border bg-customGreen2 border-customGreen2 lg:p-20 absolute lg:top-20 lg:left-10 rounded-2xl lg:float-left '>
                     <div className='text-white font-semibold'>INTERESTED IN OUR PRODUCTS?</div>
                     <div className='text-white font-bold text-6xl m-4'>Reach to us!</div>
                     <div className='text-white m-10'>
